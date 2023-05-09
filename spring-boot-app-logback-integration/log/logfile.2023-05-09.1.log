@@ -1,0 +1,64 @@
+[2023-05-09 11:12:16] - Creating shared instance of singleton bean 'spring.data.mongodb-org.springframework.boot.autoconfigure.mongo.MongoProperties'
+[2023-05-09 11:12:16] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.data.mongo.MongoDatabaseFactoryDependentConfiguration' via constructor to bean named 'spring.data.mongodb-org.springframework.boot.autoconfigure.mongo.MongoProperties'
+[2023-05-09 11:12:16] - Creating shared instance of singleton bean 'mongoDatabaseFactory'
+[2023-05-09 11:12:16] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.data.mongo.MongoDatabaseFactoryConfiguration'
+[2023-05-09 11:12:16] - Creating shared instance of singleton bean 'mongo'
+[2023-05-09 11:12:16] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration'
+[2023-05-09 11:12:16] - Creating shared instance of singleton bean 'mongoClientSettings'
+[2023-05-09 11:12:16] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration$MongoClientSettingsConfiguration'
+[2023-05-09 11:12:16] - Autowiring by type from bean name 'mongo' via factory method to bean named 'mongoClientSettings'
+[2023-05-09 11:12:16] - Creating shared instance of singleton bean 'mongoPropertiesCustomizer'
+[2023-05-09 11:12:16] - Autowiring by type from bean name 'mongoPropertiesCustomizer' via factory method to bean named 'spring.data.mongodb-org.springframework.boot.autoconfigure.mongo.MongoProperties'
+[2023-05-09 11:12:16] - Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
+[2023-05-09 11:12:16] - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.8.2"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17.0.7+8-LTS-224"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@273a5a8a]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+[2023-05-09 11:12:16] - Autowiring by type from bean name 'mongoDatabaseFactory' via factory method to bean named 'mongo'
+[2023-05-09 11:12:16] - Autowiring by type from bean name 'mongoDatabaseFactory' via factory method to bean named 'spring.data.mongodb-org.springframework.boot.autoconfigure.mongo.MongoProperties'
+[2023-05-09 11:12:16] - Creating shared instance of singleton bean 'mappingMongoConverter'
+[2023-05-09 11:12:16] - Creating shared instance of singleton bean 'mongoMappingContext'
+[2023-05-09 11:12:16] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.data.mongo.MongoDataConfiguration'
+[2023-05-09 11:12:16] - Creating shared instance of singleton bean 'mongoCustomConversions'
+[2023-05-09 11:12:16] - Opened connection [connectionId{localValue:2, serverValue:35}] to localhost:27017
+[2023-05-09 11:12:16] - Opened connection [connectionId{localValue:1, serverValue:34}] to localhost:27017
+[2023-05-09 11:12:16] - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=40868600}
+[2023-05-09 11:12:16] - Marking the connection pool for ServerId{clusterId=ClusterId{value='6459dd383ac4cb01c1f83611', description='null'}, address=localhost:27017} as 'ready'
+[2023-05-09 11:12:16] - Pruning pooled connections to localhost:27017
+[2023-05-09 11:12:16] - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=40.9 ms, state=CONNECTED}]
+[2023-05-09 11:12:16] - Checking status of localhost:27017
+[2023-05-09 11:12:16] - Adding converter from class java.lang.Character to class java.lang.String as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.util.Locale to class java.lang.String as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.math.BigDecimal to class java.lang.String as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.math.BigDecimal to class org.bson.types.Decimal128 as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.lang.String to class java.math.BigDecimal as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.types.Decimal128 to class java.math.BigDecimal as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.math.BigInteger to class java.lang.String as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.lang.String to class java.math.BigInteger as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.net.URL to class java.lang.String as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.lang.String to class java.net.URL as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class java.lang.String as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.springframework.data.mongodb.core.query.Term to class java.lang.String as writing converter
+[2023-05-09 11:12:16] - Adding converter from class org.springframework.data.mongodb.core.script.NamedMongoScript to class org.bson.Document as writing converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.script.NamedMongoScript as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.util.Currency to class java.lang.String as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.lang.String to class java.util.Currency as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.util.concurrent.atomic.AtomicInteger to class java.lang.Integer as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.util.concurrent.atomic.AtomicLong to class java.lang.Long as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.lang.Long to class java.util.concurrent.atomic.AtomicLong as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.lang.Integer to class java.util.concurrent.atomic.AtomicInteger as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.types.Binary to class [B as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.BsonTimestamp to class java.time.Instant as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.net.URI to class java.lang.String as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.lang.String to class java.net.URI as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.springframework.data.geo.Box to class org.bson.Document as writing converter
+[2023-05-09 11:12:16] - Adding converter from class org.springframework.data.geo.Polygon to class org.bson.Document as writing converter
+[2023-05-09 11:12:16] - Adding converter from class org.springframework.data.geo.Circle to class org.bson.Document as writing converter
+[2023-05-09 11:12:16] - Adding converter from class org.springframework.data.mongodb.core.geo.Sphere to class org.bson.Document as writing converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class org.springframework.data.geo.Box as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class org.springframework.data.geo.Polygon as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class org.springframework.data.geo.Circle as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.Sphere as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class org.springframework.data.geo.Point as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.springframework.data.geo.Point to class org.bson.Document as writing converter
+[2023-05-09 11:12:16] - Adding converter from class org.springframework.data.mongodb.core.query.GeoCommand to class org.bson.Document as writing converter
+[2023-05-09 11:12:16] - Adding converter from interface org.springframework.data.mongodb.core.geo.GeoJson to class org.bson.Document as writing converter
+[2023-05-09 11:12:16] - Adding converter from class org.springframework.data.mongodb.core.geo.GeoJsonPoint to class org.bson.Document as writing converter
+[2023-05-09 11:12:16] - Adding converter from class org.springframework.data.mongodb.core.geo.GeoJsonPolygon to class org.bson.Document as writing converter

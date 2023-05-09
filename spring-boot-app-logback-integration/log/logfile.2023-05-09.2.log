@@ -1,0 +1,96 @@
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonPoint as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonPolygon as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonLineString as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonMultiLineString as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonMultiPoint as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonMultiPolygon as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonGeometryCollection as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to interface org.springframework.data.mongodb.core.geo.GeoJson as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.util.Date to class java.time.LocalDateTime as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.time.LocalDateTime to class java.util.Date as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.util.Date to class java.time.LocalDate as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.time.LocalDate to class java.util.Date as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.util.Date to class java.time.LocalTime as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.time.LocalTime to class java.util.Date as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.util.Date to class java.time.Instant as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.time.Instant to class java.util.Date as writing converter
+[2023-05-09 11:12:16] - Skipping converter from class java.time.LocalDateTime to class java.time.Instant as reading converter class java.time.LocalDateTime is not a store supported simple type
+[2023-05-09 11:12:16] - Skipping converter from class java.time.Instant to class java.time.LocalDateTime as reading converter class java.time.Instant is not a store supported simple type
+[2023-05-09 11:12:16] - Adding converter from class java.time.ZoneId to class java.lang.String as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.lang.String to class java.time.ZoneId as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.time.Duration to class java.lang.String as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.lang.String to class java.time.Duration as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.time.Period to class java.lang.String as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.lang.String to class java.time.Period as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.lang.String to class java.time.LocalDate as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.lang.String to class java.time.LocalDateTime as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.lang.String to class java.time.Instant as reading converter
+[2023-05-09 11:12:16] - Creating shared instance of singleton bean 'mongoManagedTypes'
+[2023-05-09 11:12:16] - Autowiring by type from bean name 'mongoManagedTypes' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@172b013'
+[2023-05-09 11:12:16] - Identified candidate component class: file [D:\hSenid\Trainings\Training\spring-boot-app-logback-integration\demoone\target\classes\com\springone\demoone\model\Student.class]
+[2023-05-09 11:12:16] - Autowiring by type from bean name 'mongoMappingContext' via factory method to bean named 'spring.data.mongodb-org.springframework.boot.autoconfigure.mongo.MongoProperties'
+[2023-05-09 11:12:16] - Autowiring by type from bean name 'mongoMappingContext' via factory method to bean named 'mongoCustomConversions'
+[2023-05-09 11:12:16] - Autowiring by type from bean name 'mongoMappingContext' via factory method to bean named 'mongoManagedTypes'
+[2023-05-09 11:12:16] - Autowiring by type from bean name 'mappingMongoConverter' via factory method to bean named 'mongoDatabaseFactory'
+[2023-05-09 11:12:16] - Autowiring by type from bean name 'mappingMongoConverter' via factory method to bean named 'mongoMappingContext'
+[2023-05-09 11:12:16] - Autowiring by type from bean name 'mappingMongoConverter' via factory method to bean named 'mongoCustomConversions'
+[2023-05-09 11:12:16] - Adding converter from class java.lang.Character to class java.lang.String as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.util.Locale to class java.lang.String as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.math.BigDecimal to class java.lang.String as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.math.BigDecimal to class org.bson.types.Decimal128 as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.lang.String to class java.math.BigDecimal as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.types.Decimal128 to class java.math.BigDecimal as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.math.BigInteger to class java.lang.String as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.lang.String to class java.math.BigInteger as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.net.URL to class java.lang.String as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.lang.String to class java.net.URL as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class java.lang.String as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.springframework.data.mongodb.core.query.Term to class java.lang.String as writing converter
+[2023-05-09 11:12:16] - Adding converter from class org.springframework.data.mongodb.core.script.NamedMongoScript to class org.bson.Document as writing converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.script.NamedMongoScript as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.util.Currency to class java.lang.String as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.lang.String to class java.util.Currency as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.util.concurrent.atomic.AtomicInteger to class java.lang.Integer as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.util.concurrent.atomic.AtomicLong to class java.lang.Long as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.lang.Long to class java.util.concurrent.atomic.AtomicLong as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.lang.Integer to class java.util.concurrent.atomic.AtomicInteger as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.types.Binary to class [B as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.BsonTimestamp to class java.time.Instant as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.net.URI to class java.lang.String as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.lang.String to class java.net.URI as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.springframework.data.geo.Box to class org.bson.Document as writing converter
+[2023-05-09 11:12:16] - Adding converter from class org.springframework.data.geo.Polygon to class org.bson.Document as writing converter
+[2023-05-09 11:12:16] - Adding converter from class org.springframework.data.geo.Circle to class org.bson.Document as writing converter
+[2023-05-09 11:12:16] - Adding converter from class org.springframework.data.mongodb.core.geo.Sphere to class org.bson.Document as writing converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class org.springframework.data.geo.Box as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class org.springframework.data.geo.Polygon as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class org.springframework.data.geo.Circle as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.Sphere as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class org.springframework.data.geo.Point as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.springframework.data.geo.Point to class org.bson.Document as writing converter
+[2023-05-09 11:12:16] - Adding converter from class org.springframework.data.mongodb.core.query.GeoCommand to class org.bson.Document as writing converter
+[2023-05-09 11:12:16] - Adding converter from interface org.springframework.data.mongodb.core.geo.GeoJson to class org.bson.Document as writing converter
+[2023-05-09 11:12:16] - Adding converter from class org.springframework.data.mongodb.core.geo.GeoJsonPoint to class org.bson.Document as writing converter
+[2023-05-09 11:12:16] - Adding converter from class org.springframework.data.mongodb.core.geo.GeoJsonPolygon to class org.bson.Document as writing converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonPoint as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonPolygon as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonLineString as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonMultiLineString as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonMultiPoint as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonMultiPolygon as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonGeometryCollection as reading converter
+[2023-05-09 11:12:16] - Adding converter from class org.bson.Document to interface org.springframework.data.mongodb.core.geo.GeoJson as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.util.Date to class java.time.LocalDateTime as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.time.LocalDateTime to class java.util.Date as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.util.Date to class java.time.LocalDate as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.time.LocalDate to class java.util.Date as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.util.Date to class java.time.LocalTime as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.time.LocalTime to class java.util.Date as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.util.Date to class java.time.Instant as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.time.Instant to class java.util.Date as writing converter
+[2023-05-09 11:12:16] - Skipping converter from class java.time.LocalDateTime to class java.time.Instant as reading converter class java.time.LocalDateTime is not a store supported simple type
+[2023-05-09 11:12:16] - Skipping converter from class java.time.Instant to class java.time.LocalDateTime as reading converter class java.time.Instant is not a store supported simple type
+[2023-05-09 11:12:16] - Adding converter from class java.time.ZoneId to class java.lang.String as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.lang.String to class java.time.ZoneId as reading converter
+[2023-05-09 11:12:16] - Adding converter from class java.time.Duration to class java.lang.String as writing converter
+[2023-05-09 11:12:16] - Adding converter from class java.lang.String to class java.time.Duration as reading converter
