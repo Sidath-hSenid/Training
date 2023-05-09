@@ -1,0 +1,46 @@
+[2023-05-09 11:14:36] - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.9 ms, state=CONNECTED}]
+[2023-05-09 11:14:36] - Checking status of localhost:27017
+[2023-05-09 11:14:36] - Sending command '{"isMaster": 1, "$db": "admin"}' with request id 19 to database admin on connection [connectionId{localValue:2, serverValue:35}] to server localhost:27017
+[2023-05-09 11:14:36] - Execution of command with request id 19 completed successfully in 1.05 ms on connection [connectionId{localValue:2, serverValue:35}] to server localhost:27017
+[2023-05-09 11:14:46] - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.5 ms, state=CONNECTED}]
+[2023-05-09 11:14:46] - Checking status of localhost:27017
+[2023-05-09 11:14:46] - Sending command '{"isMaster": 1, "$db": "admin"}' with request id 20 to database admin on connection [connectionId{localValue:2, serverValue:35}] to server localhost:27017
+[2023-05-09 11:14:46] - Execution of command with request id 20 completed successfully in 0.82 ms on connection [connectionId{localValue:2, serverValue:35}] to server localhost:27017
+[2023-05-09 11:14:56] - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.0 ms, state=CONNECTED}]
+[2023-05-09 11:14:56] - Checking status of localhost:27017
+[2023-05-09 11:14:56] - Sending command '{"isMaster": 1, "$db": "admin"}' with request id 21 to database admin on connection [connectionId{localValue:2, serverValue:35}] to server localhost:27017
+[2023-05-09 11:14:56] - Execution of command with request id 21 completed successfully in 0.82 ms on connection [connectionId{localValue:2, serverValue:35}] to server localhost:27017
+[2023-05-09 11:15:06] - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2.7 ms, state=CONNECTED}]
+[2023-05-09 11:15:06] - Checking status of localhost:27017
+[2023-05-09 11:15:06] - Sending command '{"isMaster": 1, "$db": "admin"}' with request id 22 to database admin on connection [connectionId{localValue:2, serverValue:35}] to server localhost:27017
+[2023-05-09 11:15:06] - Execution of command with request id 22 completed successfully in 0.80 ms on connection [connectionId{localValue:2, serverValue:35}] to server localhost:27017
+[2023-05-09 11:15:16] - Pruning pooled connections to localhost:27017
+[2023-05-09 11:15:16] - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2.4 ms, state=CONNECTED}]
+[2023-05-09 11:15:16] - Checking status of localhost:27017
+[2023-05-09 11:15:16] - Sending command '{"isMaster": 1, "$db": "admin"}' with request id 23 to database admin on connection [connectionId{localValue:2, serverValue:35}] to server localhost:27017
+[2023-05-09 11:15:16] - Execution of command with request id 23 completed successfully in 0.82 ms on connection [connectionId{localValue:2, serverValue:35}] to server localhost:27017
+[2023-05-09 11:15:26] - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2.2 ms, state=CONNECTED}]
+[2023-05-09 11:15:26] - Checking status of localhost:27017
+[2023-05-09 11:15:26] - Sending command '{"isMaster": 1, "$db": "admin"}' with request id 24 to database admin on connection [connectionId{localValue:2, serverValue:35}] to server localhost:27017
+[2023-05-09 11:15:26] - Execution of command with request id 24 completed successfully in 0.88 ms on connection [connectionId{localValue:2, serverValue:35}] to server localhost:27017
+[2023-05-09 11:15:36] - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2.0 ms, state=CONNECTED}]
+[2023-05-09 11:15:36] - Checking status of localhost:27017
+[2023-05-09 11:15:36] - Sending command '{"isMaster": 1, "$db": "admin"}' with request id 25 to database admin on connection [connectionId{localValue:2, serverValue:35}] to server localhost:27017
+[2023-05-09 11:15:36] - Execution of command with request id 25 completed successfully in 1.04 ms on connection [connectionId{localValue:2, serverValue:35}] to server localhost:27017
+[2023-05-09 11:15:46] - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=1.9 ms, state=CONNECTED}]
+[2023-05-09 11:15:46] - Checking status of localhost:27017
+[2023-05-09 11:15:46] - Sending command '{"isMaster": 1, "$db": "admin"}' with request id 26 to database admin on connection [connectionId{localValue:2, serverValue:35}] to server localhost:27017
+[2023-05-09 11:15:46] - Execution of command with request id 26 completed successfully in 0.95 ms on connection [connectionId{localValue:2, serverValue:35}] to server localhost:27017
+[2023-05-09 11:15:56] - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=1.8 ms, state=CONNECTED}]
+[2023-05-09 11:15:56] - Checking status of localhost:27017
+[2023-05-09 11:15:56] - Sending command '{"isMaster": 1, "$db": "admin"}' with request id 27 to database admin on connection [connectionId{localValue:2, serverValue:35}] to server localhost:27017
+[2023-05-09 11:15:56] - Execution of command with request id 27 completed successfully in 0.63 ms on connection [connectionId{localValue:2, serverValue:35}] to server localhost:27017
+[2023-05-09 11:16:06] - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=1.6 ms, state=CONNECTED}]
+[2023-05-09 11:16:06] - Checking status of localhost:27017
+[2023-05-09 11:16:06] - Sending command '{"isMaster": 1, "$db": "admin"}' with request id 28 to database admin on connection [connectionId{localValue:2, serverValue:35}] to server localhost:27017
+[2023-05-09 11:16:06] - Execution of command with request id 28 completed successfully in 1.06 ms on connection [connectionId{localValue:2, serverValue:35}] to server localhost:27017
+[2023-05-09 11:16:16] - Pruning pooled connections to localhost:27017
+[2023-05-09 11:16:16] - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=1.6 ms, state=CONNECTED}]
+[2023-05-09 11:16:16] - Checking status of localhost:27017
+[2023-05-09 11:16:16] - Sending command '{"isMaster": 1, "$db": "admin"}' with request id 29 to database admin on connection [connectionId{localValue:2, serverValue:35}] to server localhost:27017
+[2023-05-09 11:16:16] - Execution of command with request id 29 completed successfully in 0.97 ms on connection [connectionId{localValue:2, serverValue:35}] to server localhost:27017
